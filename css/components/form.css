@@ -1,0 +1,9 @@
+.form-row {
+    & input:invalid {
+        border-color: #e57373;
+    }
+
+    & input[type="tel"]:invalid:not(:focus):not(:placeholder-shown) {
+        border-color: #e57373;
+    }
+}

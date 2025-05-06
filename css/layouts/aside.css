@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding-bottom: 1rem;
+    font-family: system-ui, sans-serif;
+    width: 30%;
+    background-image: url("../../src/assets/images/bg-hero.jpg");
+    background-size: cover;
+}
+
+.hero__logo {
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    & img {
+        width: 70px;
+    }
+    & p {
+        font-family: 'Norse';
+        font-size: 4rem;
+        color: #fff;
+    }
+}
+
+.photo-credit {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #e3e3e3;
+    & a{
+        color: #e3e3e3;
+    }
+}
